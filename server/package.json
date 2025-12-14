@@ -10,6 +10,12 @@
     "test": "test"
   },
   "scripts": {
+    "start": "node dist/hello-world.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@tsconfig/node24": "^24.0.3",
+    "@types/node": "^25.0.2",
+    "typescript": "^5.9.3"
   }
 }
